@@ -1,0 +1,68 @@
+/* MIN WIDTH */
+@media (min-width: 992px) {
+    #header .nav-link {
+      margin-left: 15px;
+      margin-right: 15px;
+    }    
+}
+
+@media (max-width: 991px){
+  #clientes .cliente-text .imagem{
+    padding: 10px 0 30px 0;
+  }
+
+  #clientes .cliente-text .imagem img{
+    max-width: 170px;
+    padding-right: 20px;
+  }
+
+  #clientes .cliente-text .telefone span{
+    font-size: 19px;
+  }
+
+  #contato .email img{
+    width: 90px;
+    top: -40px;
+  }
+
+  #contato .email form{
+    width: 80%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767.98px){
+  #servicos a.destaque .img-container {
+    height: 120px;
+  }
+  #servicos a.destaque .img-container img {
+    max-height: 120px;
+  }
+
+  #clientes .cliente-text .imagem{
+    margin-left: 0;
+  }
+
+  #clientes .cliente-text .imagem img{
+    max-width: 170px;
+    padding-right: 20px;
+  }
+
+  #clientes .cliente-text .telefone span{
+    font-size: 20px;
+  }
+
+  #contato .email{
+    padding: 60px 30px 50px 30px;
+  }
+
+  #contato .email form{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #contato ul {
+  justify-content: center;
+}
+  
+}
